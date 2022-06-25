@@ -1,0 +1,45 @@
+@import "../../SCSS/reset";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  .card {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    transition: all 1s;
+
+    h2 {
+      padding: 1rem;
+      font-family: "Lobster", cursive;
+    }
+    img {
+      width: 330px;
+      height: 250px;
+      margin: 1rem;
+      border-radius: 10px;
+      transition: all 1s;
+    }
+    .desc {
+      padding: 0 0.5rem;
+      background-color: rgba(0, 0, 0, 0.694);
+      border-radius: 10px;
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      bottom: 5px;
+    }
+    &:hover img {
+      filter: grayscale(100%);
+    }
+    &:hover .desc {
+      max-height: 500px;
+      bottom: 5px;
+      transition: max-height 2s;
+    }
+  }
+}
