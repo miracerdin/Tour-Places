@@ -1,4 +1,4 @@
-## [Click to see the page](https://miracerdin.github.io/Tour-Places)
+## [Click to see the page](https://tour-places-zeta.vercel.app/)
 
 ### I get the data from data.js
 
