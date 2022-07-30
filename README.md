@@ -1,6 +1,9 @@
-##[Click to see the page]()
+##[Click to see the page](https://miracerdin.github.io/Tour-Places)
 
 ### I get the data from data.js
+
+=======
+This project was bootstrapped with
 
 ### I learned how to use;
 
