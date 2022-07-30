@@ -2,7 +2,7 @@
 
 ### I get the data from data.js
 
-This project was bootstrapped with
+This project was created with bootstrap.
 
 ### I learned how to use;
 
